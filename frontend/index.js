@@ -3,7 +3,7 @@ var snakeColor1 = '#87ceeb';
 var snakeColor2 = 'yellow';
 const foodColor  = 'grey';
 
-var socket = io('/server', { transports : ['websocket'] });
+var socket = io('/server/', { transports : ['websocket'] });
 
 let canvas, context;
 let playerNumber;

@@ -3,7 +3,7 @@ Traditional snake game with following features:
 1. Choose color of your snake.
 2. Score counter.
 3. Multiplayer - Create and share room code to play with friend.
-4. Replay button after game ends.
+4. Rematch button after game ends.
 
 ## Technologies used
 socket.io, Canvas, hosted using Netlify for Frontend and Heroku for backend. <br>

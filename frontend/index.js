@@ -3,7 +3,7 @@ var snakeColor1 = '#87ceeb';
 var snakeColor2 = 'yellow';
 const foodColor  = 'grey';
 
-var socket = io('https://dry-dawn2.herokuapp.com/', { transports : ['websocket'] });
+var socket = io('https://snake-game-xt2x.onrender.com', { transports : ['websocket'] });
 
 let canvas, context;
 let playerNumber;
